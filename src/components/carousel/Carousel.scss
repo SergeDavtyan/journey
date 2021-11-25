@@ -1,0 +1,33 @@
+.c {
+    width: 50%;
+    height: 500px;
+    * {
+        user-select: none;
+        outline: none;
+    }
+    .slick-arrow {
+        width: 50px;
+        height: 50px;
+        transition: all .3s;
+        z-index: 999;
+        background: rgba(0,0,0,0.5);
+    }
+}
+
+.arrow-right {
+    .slick-next {
+        right: 45px;
+    }
+    .slick-prev {
+        left: auto;
+        right: 100px;
+    }
+}
+.arrow-left {
+    .slick-next {
+        left: 100px;
+    }
+    .slick-prev {
+        left: 45px;
+    }
+}

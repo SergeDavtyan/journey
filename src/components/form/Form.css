@@ -1,0 +1,50 @@
+form {
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+  top: 10%;
+  right: 8%;
+  width: 100%;
+  max-width: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+form * {
+  width: 100%;
+  margin-bottom: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+  padding: 10px;
+  border: none;
+  background: #F5F5F5;
+}
+
+form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+  background: #fff;
+}
+
+form div input:nth-of-type(1) {
+  margin-right: 10px;
+}
+
+form textarea {
+  height: 150px;
+}
+/*# sourceMappingURL=Form.css.map */

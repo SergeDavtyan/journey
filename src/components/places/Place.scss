@@ -1,0 +1,44 @@
+.p {
+    width: 50%;
+    padding: 50px;
+    color: white;
+    z-index: 1;
+
+    p {
+        margin-bottom: 16px;
+        margin-top: 8px;
+    }
+    
+}
+
+.p-blue {
+    background: #69C6BA;
+    button {
+        background-color: #fff;
+        color: #69C6BA;
+        width: 200px;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.p-pink {
+    background: #c66995;
+    button {
+        background-color: #fff;
+        color: #69C6BA;
+        width: 200px;
+        &:hover {
+            color: #fff;
+            background-color: #69C6BA;
+        }
+    }
+}
+.p-right {
+    margin-left: -45px;
+    margin-right: auto;
+}
+.p-left {
+    margin-left: auto;
+    margin-right: -45px;
+}

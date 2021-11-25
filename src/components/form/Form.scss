@@ -1,0 +1,36 @@
+form {
+    background-color: #fff;
+    z-index: 10;
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    * {
+        width: 100%;
+        margin-bottom: 15px;
+        user-select: none;
+        outline: none;
+        padding: 10px;
+        border: none;
+        background: #F5F5F5;
+    }
+    div {
+        display: flex;
+        margin-bottom: 0;
+        background: #fff;
+        input {
+            &:nth-of-type(1) {
+                margin-right: 10px;
+            }
+        }
+    }
+    textarea {
+        height: 150px;
+    }
+
+}

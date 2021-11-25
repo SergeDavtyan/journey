@@ -1,0 +1,62 @@
+.header {
+  background-color: #fff;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .logo {
+  width: 205px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .logo span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header .container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+}
+
+.header .container .menu__item {
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.header .container .menu__item:hover {
+  color: #69C6BA;
+}
+/*# sourceMappingURL=Header.css.map */

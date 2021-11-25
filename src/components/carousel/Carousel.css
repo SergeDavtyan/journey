@@ -1,0 +1,39 @@
+.c {
+  width: 50%;
+  height: 500px;
+}
+
+.c * {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+}
+
+.c .slick-arrow {
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.arrow-right .slick-next {
+  right: 45px;
+}
+
+.arrow-right .slick-prev {
+  left: auto;
+  right: 100px;
+}
+
+.arrow-left .slick-next {
+  left: 100px;
+}
+
+.arrow-left .slick-prev {
+  left: 45px;
+}
+/*# sourceMappingURL=Carousel.css.map */
